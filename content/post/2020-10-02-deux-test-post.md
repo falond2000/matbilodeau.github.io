@@ -1,7 +1,7 @@
 ---
 title: "2020 10 02 Deux Test Post"
+subtitle: Each post also has a subtitle
 date: 2020-10-02T19:29:13-04:00
-draft: true
 tags: ["example", "markdown"]
 ---
 
