@@ -124,6 +124,11 @@ workflows:
   version: 2
   build-and-deploy:
     jobs:
+      triggers:
+        filters:
+          branches:
+            only:
+              - source
       - checkout-existing:
           filters:
             branches:
