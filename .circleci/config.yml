@@ -127,7 +127,7 @@ workflows:
           filters:
             branches:
               only:
-                - hugo
+                - source
       - build:
           requires:
             - checkout-existing
