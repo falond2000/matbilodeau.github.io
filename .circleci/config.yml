@@ -48,7 +48,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - " c8:14:90:fe:49:0b:8b:f1:7a:b6:b1:90:4e:ee:ab:65"
+            - " ab:46:e4:40:bf:33:81:95:a8:85:da:53:76:7f:93:e6"
       - run:
           name: Pull main
           command: |
@@ -72,7 +72,7 @@ jobs:
           at: ~/tmp
       - add_ssh_keys:
           fingerprints:
-            - " c8:14:90:fe:49:0b:8b:f1:7a:b6:b1:90:4e:ee:ab:65"
+            - " ab:46:e4:40:bf:33:81:95:a8:85:da:53:76:7f:93:e6"
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
@@ -109,7 +109,7 @@ jobs:
           at: ~/project
       - add_ssh_keys:
           fingerprints:
-            - " c8:14:90:fe:49:0b:8b:f1:7a:b6:b1:90:4e:ee:ab:65"
+            - " ab:46:e4:40:bf:33:81:95:a8:85:da:53:76:7f:93:e6"
       - run:
           name: Update main with changes
           command: |
