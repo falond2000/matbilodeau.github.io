@@ -3,7 +3,7 @@ version: 2.0
 jobs:
     build:
         docker:
-            - image: cibuilds/docker-hugo:latest
+            - image: cibuilds/hugo:latest
         working_directory: ~/matbilodeau.github.io
         steps:
             - add_ssh_keys:
