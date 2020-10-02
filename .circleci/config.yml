@@ -125,6 +125,7 @@ workflows:
   build-and-deploy:
      triggers:
        - schedule:
+           cron: "0 0 * * *"
            filters:
              branches:
                only:
