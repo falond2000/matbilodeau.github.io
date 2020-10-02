@@ -123,6 +123,12 @@ jobs:
 workflows:
   version: 2
   build-and-deploy:
+    triggers:
+      - schedule:
+        filters:
+          branches:
+            only:
+              - source
     jobs:
       - checkout-existing:
           filters:
