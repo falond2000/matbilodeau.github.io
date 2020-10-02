@@ -49,7 +49,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   name = "Mathieu Bilodeau"
-  website = "matbilodeau.dev"
+  website = "https://matbilodeau.dev"
   #email = ""
 #  facebook = "username"
   github = "matbilodeau"
