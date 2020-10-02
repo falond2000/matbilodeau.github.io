@@ -1,0 +1,97 @@
+version: 2.0
+jobs:
+  checkout-existing:
+    machine:
+      enabled: true
+    working_directory: ~/project
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "4e:ae:c5:01:39:ca:92:35:73:6d:8d:9a:8e:18:e3:db"
+      - run:
+          name: Pull master
+          command: |
+            mkdir public && cd ./public
+            git init
+            git remote add origin git@github.com:matbilodeau/matbilodeau.github.io.git
+            git pull origin master
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - public
+
+
+  build:
+    working_directory: ~/project
+    docker:
+      - image: cibuilds/hugo:latest
+    steps:
+      - attach_workspace:
+          at: ~/tmp
+      - add_ssh_keys:
+          fingerprints:
+            - "4e:ae:c5:01:39:ca:92:35:73:6d:8d:9a:8e:18:e3:db"
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run:
+          name: copy old files up
+          command: cp -r ~/tmp/public ~/project/public
+      - run:
+          name: Run Hugo
+          command: HUGO_ENV=production hugo -v
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - public
+
+  test:
+    working_directory: ~/project
+    docker:
+      - image: cibuilds/hugo:latest
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run:
+          name: html check
+          command: |
+            htmlproofer ~/project/public --allow-hash-href --check-html \
+            --empty-alt-ignore --disable-external
+  deploy-master:
+    machine:
+      enabled: true
+    working_directory: ~/project
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - add_ssh_keys:
+          fingerprints:
+            - "4e:ae:c5:01:39:ca:92:35:73:6d:8d:9a:8e:18:e3:db"
+      - run:
+          name: Update master with changes
+          command: |
+            cd ./public
+            git config --global user.email "mathieubilodeau000@gmail.com"
+            git config --global user.name "CircleCI"
+            git add *
+            commitMsg="CircleCI site rebuild at `date` [skip ci]"
+            git commit -m "$commitMsg"
+            git push origin master
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - checkout-existing:
+          filters:
+            branches:
+              only:
+                - hugo
+      - build:
+          requires:
+            - checkout-existing
+      - test:
+          requires:
+            - build
+      - deploy-master:
+          requires:
+            - test
