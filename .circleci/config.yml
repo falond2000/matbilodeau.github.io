@@ -126,14 +126,6 @@ jobs:
 workflows:
   version: 2
   build-and-deploy:
-     triggers:
-       - schedule:
-           cron: "0 0 * * *"
-           filters:
-             branches:
-               only:
-                 - source
-
     jobs:
       - checkout-existing:
           filters:
@@ -146,6 +138,6 @@ workflows:
       - test:
           requires:
             - build
-      - deploy-main:
+      - deploy-master:
           requires:
             - test
