@@ -5,13 +5,22 @@
     <link>https://matbilodeau.dev/tags/</link>
     <description>Recent content in Tags on Mathieu Bilodeau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://matbilodeau.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 19:29:13 -0400</lastBuildDate><atom:link href="https://matbilodeau.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>example</title>
       <link>https://matbilodeau.dev/tags/example/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Oct 2020 19:29:13 -0400</pubDate>
       
       <guid>https://matbilodeau.dev/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://matbilodeau.dev/tags/markdown/</link>
+      <pubDate>Fri, 02 Oct 2020 19:29:13 -0400</pubDate>
+      
+      <guid>https://matbilodeau.dev/tags/markdown/</guid>
       <description></description>
     </item>
     
@@ -48,15 +57,6 @@
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://matbilodeau.dev/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://matbilodeau.dev/tags/markdown/</link>
-      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://matbilodeau.dev/tags/markdown/</guid>
       <description></description>
     </item>
     
