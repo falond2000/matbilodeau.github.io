@@ -120,6 +120,9 @@ jobs:
             commitMsg="CircleCI site rebuild at `date` [skip ci]"
             git commit -m "$commitMsg"
             git push origin main
+
+
+
 workflows:
   version: 2
   build-and-deploy:
