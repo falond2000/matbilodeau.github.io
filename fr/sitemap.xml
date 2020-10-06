@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://matbilodeau.dev/</loc>
-    <lastmod>2020-10-02T19:17:12-04:00</lastmod>
+    <lastmod>2020-10-06T17:34:06-04:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -15,6 +15,81 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://matbilodeau.dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/tags/.dev/</loc>
+    <lastmod>2020-10-06T17:34:06-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/tags/.dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/tags/.dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/post/2020-10-05-github-pages/</loc>
+    <lastmod>2020-10-06T17:34:06-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/post/2020-10-05-github-pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/post/2020-10-05-github-pages/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/tags/post/</loc>
+    <lastmod>2020-10-06T17:34:06-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/tags/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/tags/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/post/</loc>
+    <lastmod>2020-10-06T17:34:06-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/tags/</loc>
+    <lastmod>2020-10-06T17:34:06-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/tags/"
                 />
   </url>
   
@@ -50,20 +125,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://matbilodeau.dev/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://matbilodeau.dev/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matbilodeau.dev/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://matbilodeau.dev/tags/"
                 />
   </url>
   

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mathieu Bilodeau</title>
-    <link>https://matbilodeau.dev/post/</link>
-    <description>Recent content in Posts on Mathieu Bilodeau</description>
+    <title>post on Mathieu Bilodeau</title>
+    <link>https://matbilodeau.dev/tags/post/</link>
+    <description>Recent content in post on Mathieu Bilodeau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Oct 2020 17:34:05 -0400</lastBuildDate><atom:link href="https://matbilodeau.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 17:34:05 -0400</lastBuildDate><atom:link href="https://matbilodeau.dev/tags/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2020 10 05 Github Pages</title>
       <link>https://matbilodeau.dev/post/2020-10-05-github-pages/</link>
