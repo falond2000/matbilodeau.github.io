@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mathieu Bilodeau</title>
-    <link>https://matbilodeau.dev/tags/</link>
+    <link>https://matbilodeau.dev/en/tags/</link>
     <description>Recent content in Tags on Mathieu Bilodeau</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://matbilodeau.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://matbilodeau.dev/en/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

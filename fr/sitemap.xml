@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://matbilodeau.dev/</loc>
+    <lastmod>2020-10-02T19:17:12-04:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/page/</loc>
+    <lastmod>2020-10-02T19:17:12-04:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/page/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/page/moi/</loc>
+    <lastmod>2020-10-02T19:17:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matbilodeau.dev/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matbilodeau.dev/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://matbilodeau.dev/tags/"
+                />
+  </url>
+  
+</urlset>
