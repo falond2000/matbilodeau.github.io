@@ -6,7 +6,7 @@ description:
 date: 2020-10-05T17:34:05-04:00
 lastmod: 2020-10-06T17:34:06-04:00
 tags: [post, .dev]
-draft: true
+draft: false
 shareOff:
 ---
 
