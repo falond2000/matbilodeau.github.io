@@ -94,9 +94,13 @@
   </url>
   
   <url>
+    <loc>https://matbilodeau.dev/page/moi/</loc>
+    <lastmod>2020-10-02T19:17:12-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://matbilodeau.dev/page/</loc>
     <lastmod>2020-10-02T19:17:12-04:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -107,11 +111,6 @@
                 hreflang="fr"
                 href="https://matbilodeau.dev/page/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://matbilodeau.dev/page/moi/</loc>
-    <lastmod>2020-10-02T19:17:12-04:00</lastmod>
   </url>
   
   <url>

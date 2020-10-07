@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mathieu Bilodeau</title>
+    <title>Pages on Mathieu Bilodeau</title>
     <link>https://matbilodeau.dev/page/</link>
-    <description>Recent content on Mathieu Bilodeau</description>
+    <description>Recent content in Pages on Mathieu Bilodeau</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 02 Oct 2020 19:17:12 -0400</lastBuildDate><atom:link href="https://matbilodeau.dev/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,8 @@
       <pubDate>Fri, 02 Oct 2020 19:17:12 -0400</pubDate>
       
       <guid>https://matbilodeau.dev/page/moi/</guid>
-      <description>À remplir</description>
+      <description>CV Télécharger
+Elevator pitch Bonjour, mon nom est Mathieu et je suis insérez un titre. J&amp;rsquo;aime chercher le pourquoi du comment, comprendre comment le briser et l&amp;rsquo;améliorer. J&amp;rsquo;ai un Bac en cybersécurité de Polytechnique Montréal et je voudrais vous faire profiter de mes acquis. J&amp;rsquo;aime lire et j&amp;rsquo;adore apprendre de nouveaux concepts ou de nouvelles compétences. Je suis intéressé par divers sujets allant des technologies au domaine de la santé et du bien-être.</description>
     </item>
     
   </channel>

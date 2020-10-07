@@ -57,9 +57,9 @@
     "name" : "Mathieu Bilodeau"
   },
   "headline": "2020 10 05 Github Pages",
-  "description" : "Un brin d\u0026rsquo;histoire How to keep your sanity when dealing with Google Domains Procedure Sécurity Conclusion ",
+  "description" : "The story part I had been thinking about registering a domain for a custom email address. I was looking for an easy to remember name that would look professionnal without necessarily going for a common TLD such as .com. .ca, etc. Having a Google account and knowing thy offer a registrar service, I had a look. That\u0026rsquo;s how I came across the .dev TLD.\nMarketing dept\u0026rsquo;s doing its job well so I clicked that attractive button.",
   "inLanguage" : "en",
-  "wordCount":  16 ,
+  "wordCount":  760 ,
   "datePublished" : "2020-10-05T17:34:05",
   "dateModified" : "2020-10-05T17:34:05",
   "image" : "https:\/\/matbilodeau.dev\/img\/avatar-icon.png",
@@ -90,7 +90,7 @@
   <meta name="twitter:image" content="https://matbilodeau.dev/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <link href='https://matbilodeau.dev/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.75.1" />
+  <meta name="generator" content="Hugo 0.76.2" />
   <link rel="alternate" href="https://matbilodeau.dev/en/index.xml" type="application/rss+xml" title="Mathieu Bilodeau"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://matbilodeau.dev/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -261,15 +261,15 @@ if (!doNotTrack) {
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on October 5, 2020
+  <i class="fas fa-calendar"></i>&nbsp;
   
-    &nbsp;(Last modified on October 6, 2020)
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;16&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;760&nbsp;words
   
   
     
@@ -294,12 +294,42 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h1 id="un-brin-dhistoire">Un brin d&rsquo;histoire</h1>
+        <h1 id="the-story-part">The story part</h1>
+<p>I had been thinking about registering a domain for a custom email address. I was looking for an easy to remember name that would look professionnal without necessarily going for a common <a href="https://en.wikipedia.org/wiki/Top-level_domain">TLD</a> such as <em>.com</em>. <em>.ca</em>, etc. Having a Google account and knowing thy offer a registrar service, I had a look.  That&rsquo;s how I came across the <a href="https://get.dev/#benefits">.dev</a> <a href="https://en.wikipedia.org/wiki/Top-level_domain">TLD</a>.</p>
+<p><img src="/img/Gdomain.png" alt="Good marketing here"></p>
+<p>Marketing dept&rsquo;s doing its job well so I clicked that attractive button.  If you want to serve a website through this domain, you&rsquo;ll need an SSL certificate.  No worries there, plus it&rsquo;s a cool name, it&rsquo;s affordable and it will require that I setup HTTPS when I&rsquo;m ready for a website (and also requires visitors to use a secure protocol).</p>
+<p>I had come across a site hosted on Github for the first time a few years back and figured it was automatically generated from <em>.md</em> files within the repo. I tought <a href="https://pages.github.com">Github Pages</a> would be an interesting option when I&rsquo;d want a small website to show off my repos.</p>
+<p>So I&rsquo;m doing this presentation for a cloud computing course and while presenting Github&rsquo;s features, I was showing how you could use it to showcase your skills to potential employers and link it on your CV. Someone throws &ldquo;Why isn&rsquo;t yours on Github then?&rdquo;</p>
+<p><img src="/img/challengeAccepted.jpg" alt="Challenge Accpeted"></p>
 <h1 id="how-to">How to</h1>
 <h2 id="keep-your-sanity-when-dealing-with-google-domains">keep your sanity when dealing with Google Domains</h2>
+<p>If you enjoy a cleansed browsing experience though the use of extensions/plug-ins, some of Google Domains' features may seem broken. The cases I experienced were:</p>
+<ul>
+<li>DNS A Record not accepting all the IP adresses and reverting to the first line only, even after using the + sign on creation, using the edit button and then the + sign to add more failed, deleting the record and waiting for the TTL to expire didn&rsquo;t change anything either.</li>
+<li>CNAME always fell back to mydomain.dev instead of user.github.io even after trying the common troubleshooting listed previously.</li>
+</ul>
+<h3 id="use-private-browsing-or-incognito-mode"><strong>Use private browsing or incognito mode</strong></h3>
+<p>I know it doesn&rsquo;t make sense as a solution to apparent DNS issues but it worked for me.</p>
 <h1 id="procedure">Procedure</h1>
+<p>You will need:</p>
+<ul>
+<li>A Github account</li>
+<li>A registered domain
+<ul>
+<li>if your domain is not &ldquo;More Secure&rdquo;, you can still follow these instructions.</li>
+</ul>
+</li>
+</ul>
+<p>The <a href="https://pages.github.com">Github Pages</a> docs make you create a repo like <code>user.github.io</code> but you can activate <a href="https://pages.github.com">Github Pages</a> in any repo through the <em>Settings</em> menu. However, Github can only have one custom entry per repo, either Apex or subdomain but not both. So you cant have <a href="http://www.domain.xxx">www.domain.xxx</a> and domain.xxx redirect to the same repo. There are inelegant workaround methods but I won&rsquo;t deal with that here. Just choose how <em>you</em> think is best. I decided to go with the <em>Apex</em> domain and use subdomains for specific repos, like <a href="https://aucun-probleme.matbilodeau.dev/">this one</a>.</p>
+<p>Want to use the <em>Apex</em>? Just create an <em>A RECORD</em> in Google Domains DNS with the IP adresses listed <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain">here</a>.
+Want to use a subdomain instead? Create a <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">CNAME</a> file (steps 1 2 3, use full <em>sub.domain.xxx</em>) in your repo and go to Google Domains DNS and add a CNAME entry <em>sub</em> that directs to <code>user.github.io</code>.</p>
+<p><img src="/img/GoogleDomainsDNS.png" alt="GoogleDNS"></p>
+<p>Once your done with the Google Domains part, go back to your repo&rsquo;s Settings and <em>wait patiently</em> until the error message next to the <em>Enforce HTTP</em> checkbox goes away. DNS propagation can take a while, you might see a change in minutes but it could also take hours. <a href="https://pages.github.com">Github Pages</a> automatically generates free certificates through <em>Let&rsquo;s Encrypt</em>. If you pay attention to the Settings page you might even see a progress bar when the certificate is generated. When everything is ready you should see &ldquo;Your site is now published at https://&hellip;.&rdquo;</p>
 <h1 id="sécurity">Sécurity</h1>
+<p>The main benefit of <code>.dev</code>domains, on top being really really really ridiculously good looking, is that it commes out of the box with  <a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS</a> pre-loading enabled. This makes sure all connections to your site are secure. If you want to enable HSTS on a domain you own, just follow these <a href="https://hstspreload.org/">instructions</a>. If you think it&rsquo;s a bit much to have HTTPS + HSTS enabled for a simple blog, it&rsquo;s 2020 and I don&rsquo;t have a valid reason not to make my trafic secure by default.</p>
 <h1 id="conclusion">Conclusion</h1>
+<p>Mon <a href="/pdf/MathieuBilodeauNET_fr.pdf">CV</a> is now on Github but I haven&rsquo;t set up my custom email yet&hellip;</p>
+<p>A big thank you goes out to <a href="https://chasesawyer.dev">Chase Sawyer</a> for helping me while troubleshooting Google DNS and confirming the instructions worked on his side. Because of this I was either crazy or some kind of Google dark arts was happening. I tested the second hypothesis by using Chrome&rsquo;s incognito mode and everything behaved as expected.</p>
 
 
         
@@ -409,10 +439,26 @@ if (!doNotTrack) {
                 </a>
               </li>
               <li>
+                <a href="https://linkedin.com/in/uaedolibueihtam" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
                 <a href="https://keybase.io/matbilodeau" title="Keybase">
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://mastodon.fedi.quebec/@mat" title="Mastodon">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
@@ -446,7 +492,7 @@ if (!doNotTrack) {
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.75.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.76.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>
