@@ -169,6 +169,11 @@ pygmentsCodefencesGuessSyntax = true
   url = "tags"
   weight = 3
 
+[[languages.fr.menu.main]]
+  name = "Labos"
+  url = "https://labocloud.matbilodeau.dev"
+  weight = 4
+
 [[languages.en.menu.main]]
   name = "Blog"
   url = ""
